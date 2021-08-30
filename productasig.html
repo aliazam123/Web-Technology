@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.card-list{
+			width: 100%;
+		}
+		#product{
+			width: 100%;
+			text-align: center;
+		}
+		.card{
+			width: 22%;
+			padding: 1.5%;
+			height: 300px;
+			float: left;
+			text-align: center;
+		}
+		.card img{
+			width: 100%;
+		}
+		.order-section{
+			width: 100%;
+		}
+		.form input{
+			width: 50px;
+		}
+	</style>
+</head>
+<body>
+	<nav >
+		<a href="assig.html" style="float: left; font-size: 25px; padding: 10px 0px 10px 10px; text-decoration: none"> Home</a>
+		<a href="about.html" style="float: right; font-size:25px; padding: 10px 10px 10px 0px; text-decoration: none;">About</a>
+		<a href="video.html" style="float: right; font-size:25px; padding: 10px 10px 10px 0px; text-decoration: none;">Video</a>
+	</nav>
+	<br>
+	<div class="card-list">
+		<h1 id="product">Product</h1>
+		<div class="card">
+			<figure>
+			  <img src="mocha-image.png">
+			  <figcaption>Fig.1 - mocha</figcaption>
+			</figure>
+			<div>
+				<h2>Mocha</h2>
+				<h3>&#8377;150</h3>
+			</div>
+		</div>
+		<div class="card">
+			<figure>
+			  <img src="americano-image.png">
+			  <figcaption>Fig.2 - americano</figcaption>
+			</figure>
+			<div>
+				<h2>americano</h2>
+				<h3>&#8377;200</h3>
+			</div>
+		</div>
+		<div class="card">
+			<figure>
+			  <img src="cappuccino-image.png">
+			  <figcaption>Fig.3 - cappuccino</figcaption>
+			</figure>
+			<div>
+				<h2>cappuccino</h2>
+				<h3>&#8377;250</h3>
+			</div>
+		</div>
+		<div class="card">
+			<figure>
+			  <img src="latte-image.png">
+			  <figcaption>Fig.4 - latte</figcaption>
+			</figure>
+			<div>
+				<h2>latte</h2>
+				<h3>&#8377;100</h3>
+			</div>
+		</div>
+		<div class="card">
+			<figure>
+			  <img src="greentea.jpeg">
+			  <figcaption>Fig.5 - green Tea</figcaption>
+			</figure>
+			<div>
+				<h2>green</h2>
+				<h3>&#8377;60</h3>
+			</div>
+		</div>
+		<div class="card">
+			<figure>
+			  <img src="hibiscus.jpg">
+			  <figcaption>Fig.6 - hibiscus</figcaption>
+			</figure>
+			<div>
+				<h2>Hibiscus</h2>
+				<h3>&#8377;90</h3>
+			</div>
+		</div>
+		<div class="card">
+			<figure>
+			  <img src="blacktea.jfif">
+			  <figcaption>Fig.7 - Black</figcaption>
+			</figure>
+			<div>
+				<h2>Black Tea</h2>
+				<h3>&#8377;50</h3>
+			</div>
+		</div>
+		<div class="card">
+			<figure>
+			  <img src="coffeepic.jpeg">
+			  <figcaption>Fig.8 - Coffee</figcaption>
+			</figure>
+			<div>
+				<h2>Coffee Bru</h2>
+				<h3>&#8377;30</h3>
+			</div>
+		</div>
+		<div class="order-section">
+			<h1 id="order">Order</h1>
+			<form action="action details">
+				<input type="text" placeholder="Name"><br>
+				<input type="text" placeholder="Table No."><br>
+				<input type="phone" placeholder="Phone"><br>
+				<label for="browser">Choose your browser from the list:</label>
+			    <input list="browsers" name="browser" id="browser">
+			    <datalist id="browsers">
+				    <option value="Mocha">
+				    <option value="americano">
+				    <option value="cappuccino">
+				    <option value="latte">
+				    <option value="green">
+				    <option value="Hibiscus">
+				    <option value="Black Tea">
+				    <option value="Coffee Bru">
+				</datalist>
+				Quantity:
+				<select>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+				</select><br>
+				<label for="coffee">Description :</label><br>
+				<textarea cols="21" rows="2"></textarea>
+				<input type="reset" value="Cancle">
+				<input type="submit">
+				
+			</form>
+		</div>
+
+	</div>
+
+</body>
+</html>
