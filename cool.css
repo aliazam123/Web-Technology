@@ -1,0 +1,26 @@
+#foot{
+	background-color: grey;
+	font-size: 18px;
+	font-weight: bold;
+}
+#tab{
+	background-color: #60601a;
+	font-size: 18px;
+	color: white;
+}
+tr{
+	background-color: orange;
+}
+.cool{
+	background-color: red; 
+}
+.back{
+	background-color: yellow;
+}
+a{
+	text-decoration-line: none;
+	color: white;
+	font-size: 17px;
+	font-style: oblique;
+	font-weight: bold;
+}
